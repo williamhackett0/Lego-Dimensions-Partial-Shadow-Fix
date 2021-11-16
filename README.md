@@ -5,6 +5,8 @@ Installation: Put within your graphics pack folder within the Cemu directory.
 
 Usage: Enable the graphic pack within Cemu and set your desired resolution. Make sure you disable the old resolution pack.
 
+Old Graphics Pack:
 ![Alt text](images/Lego_Dimensions_Broken.png?raw=true "Unaltered Resolution Graphics Pack")
 
+New Graphics Pack:
 ![Alt text](images/Lego_Dimensions_Fixed.png?raw=true "Altered Resolution Graphics Pack")
