@@ -109,12 +109,21 @@ height = 368
 overwriteWidth = ($width/$gameWidth) * 640
 overwriteHeight  = ($height/$gameHeight) * 368
 
-#Commented Out, breaks shadows
-#[TextureRedefine]
-#width = 960
-#height = 960
-#overwriteWidth = ($width/$gameWidth) * 960
-#overwriteHeight  = ($height/$gameHeight) * 960
+#Implemented by William Hackett - Shadow Large
+[TextureRedefine]
+width = 960
+height = 3840
+overwriteWidth = ($width/$gameWidth) * 960
+overwriteHeight  = (($height/$gameHeight) * 960) * 4 #Must be 4 times the size of the calculated dimension
+
+#Implemented by William Hackett - Shadow Smaller
+[TextureRedefine]
+width = 960
+height = 960
+overwriteWidth = ($width/$gameWidth) * 960
+overwriteHeight  = ($height/$gameHeight) * 960
+
+############################# OLD CODE ###################################
 
 #Old
 #[TextureRedefine]
